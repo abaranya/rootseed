@@ -8,6 +8,6 @@ public class RootseedController{
 
         @RequestMapping("/home")
         public String home() {
-            return "index";
+            return "index.html";
         }
 }
